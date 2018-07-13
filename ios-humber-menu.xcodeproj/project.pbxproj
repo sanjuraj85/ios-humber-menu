@@ -13,6 +13,8 @@
 		78FAC7B420F4AB29001B1868 /* ios_humber_menu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78FAC7B220F4AB29001B1868 /* ios_humber_menu.xcdatamodeld */; };
 		78FAC7B620F4AB2B001B1868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FAC7B520F4AB2B001B1868 /* Assets.xcassets */; };
 		78FAC7B920F4AB2B001B1868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FAC7B720F4AB2B001B1868 /* LaunchScreen.storyboard */; };
+		78FAC7C120F4AC9F001B1868 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAC7C020F4AC9F001B1868 /* MenuVC.swift */; };
+		78FAC7C320F4B8F5001B1868 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FAC7C220F4B8F5001B1868 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		78FAC7B520F4AB2B001B1868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78FAC7B820F4AB2B001B1868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78FAC7BA20F4AB2B001B1868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FAC7C020F4AC9F001B1868 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		78FAC7C220F4B8F5001B1868 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				78FAC7B720F4AB2B001B1868 /* LaunchScreen.storyboard */,
 				78FAC7BA20F4AB2B001B1868 /* Info.plist */,
 				78FAC7B220F4AB29001B1868 /* ios_humber_menu.xcdatamodeld */,
+				78FAC7C020F4AC9F001B1868 /* MenuVC.swift */,
+				78FAC7C220F4B8F5001B1868 /* ProfileViewController.swift */,
 			);
 			path = "ios-humber-menu";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78FAC7AE20F4AB29001B1868 /* ViewController.swift in Sources */,
+				78FAC7C120F4AC9F001B1868 /* MenuVC.swift in Sources */,
+				78FAC7C320F4B8F5001B1868 /* ProfileViewController.swift in Sources */,
 				78FAC7AC20F4AB29001B1868 /* AppDelegate.swift in Sources */,
 				78FAC7B420F4AB29001B1868 /* ios_humber_menu.xcdatamodeld in Sources */,
 			);

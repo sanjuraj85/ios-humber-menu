@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ProfileViewController.swift
 //  ios-humber-menu
 //
 //  Created by Pandit, Sanjay on 7/10/18.
@@ -8,16 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController, MenuClickDelegate {
-    
+class ProfileViewController: UIViewController,MenuClickDelegate {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //Always set restorationIdentifier for all parent/home controller
-        self.restorationIdentifier = "HomeVC"
+        self.restorationIdentifier = "PROFILE"
         //Init Menu and also set if you wish to show back button along with humberger menu
-        Menu.initMenu(self, position: .left)
-        
+        Menu.initMenu(self, isBackButton: true, position: .right)
         
     }
     //Delegate back to menu
@@ -25,6 +24,4 @@ class ViewController: UIViewController, MenuClickDelegate {
         Menu.menuSelectedItem(section, index, self)
     }
 
-
 }
-
